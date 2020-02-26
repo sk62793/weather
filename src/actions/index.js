@@ -1,11 +1,11 @@
 import axios from 'axios'
+import appKey from '.../sample/sample.txt'
 
 export const GET_INFO_REQUEST = 'GET_INFO_REQUEST'
 export const GET_INFO_SUCCESS = 'GET_INFO_SUCCESS'
 export const GET_INFO_FAILURE = 'GET_INFO_FAILURE'
 
 const weatherUrl = 'https://api.openweathermap.org/data/2.5/weather?APPID='
-const appKey = '57f8f3464d5813ed2a1cb2de9537c61c'
 
 export const getInfoRequest = () => {
     return {
